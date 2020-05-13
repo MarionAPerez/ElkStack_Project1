@@ -31,7 +31,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 -Metricbeat is configured to use the system module which collects server system metrics, such as CPU and memory usage and network.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name       | Function | IP Address | Operating System |
 |------------|----------|------------|------------------|
@@ -75,7 +74,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Docker ps.png.png
+![Image description]Docker ps.png.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
